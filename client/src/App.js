@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+
+import PersistentDrawerLeft from './components/PersistentDrawerLeft';
 
 class App extends Component {
   constructor(props) {
@@ -21,8 +22,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
-        <p className="AppIntro">{this.state.apiResponse}</p>
+        <PersistentDrawerLeft />
+        <p>{this.state.apiResponse}</p>
       </div>
     )
   }
