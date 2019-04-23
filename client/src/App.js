@@ -17,6 +17,7 @@ class App extends Component {
 
   componentDidMount() {
     this.callAPI();
+    console.log("API Mounted");
   }
 
   render() {

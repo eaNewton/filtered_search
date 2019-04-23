@@ -19,6 +19,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import SearchBar from './SearchBar';
+import SimpleTable from './SimpleTable';
 
 const drawerWidth = 240;
 
@@ -158,7 +159,7 @@ class PersistentDrawerLeft extends Component {
           })}
         >
           <div className={classes.drawerHeader} />
-          <SearchBar />
+          <SimpleTable />
         </main>
       </div>
     );
